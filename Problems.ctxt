@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Problems()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Problems\n
+comment1.params=
+comment1.target=int\ problemOne()
+comment1.text=\n\ If\ we\ list\ all\ the\ natural\ numbers\ below\ 10\ that\ are\ multiples\ of\ 3\ or\ 5,\ \n\ we\ get\ 3,\ 5,\ 6\ and\ 9.\ The\ sum\ of\ these\ multiples\ is\ 23.\n\ \n\ Find\ the\ sum\ of\ all\ the\ multiples\ of\ 3\ or\ 5\ below\ 1000.\ \n\ \n\ Answer\:\ 233168\n
+comment2.params=
+comment2.target=int\ problemTwo()
+comment2.text=\n\ Each\ new\ term\ in\ the\ Fibonacci\ sequence\ is\ generated\ by\ adding\ \n\ the\ previous\ two\ terms.\ By\ starting\ with\ 1\ and\ 2,\ \n\ the\ first\ 10\ terms\ will\ be\:\n\n\ 1,\ 2,\ 3,\ 5,\ 8,\ 13,\ 21,\ 34,\ 55,\ 89,\ ...\n\n\ By\ considering\ the\ terms\ in\ the\ Fibonacci\ sequence\ whose\ values\ \n\ do\ not\ exceed\ four\ million,\ find\ the\ sum\ of\ the\ even-valued\ terms.\n\ \n\ Answer\:\ 4613732\n
+numComments=3
