@@ -78,7 +78,7 @@ public class Problems
    * @return void
    */
   public static void main(String args[]) {
-    System.out.println("Problem 1: " + Problems.problemOne());
-    System.out.println("Problem 2: " + Problems.problemTwo());
+    System.out.println("Problem 1 (should be 233168): " + Problems.problemOne());
+    System.out.println("Problem 2 (should be 4613732): " + Problems.problemTwo());
   }
 }
