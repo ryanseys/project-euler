@@ -8,14 +8,6 @@ import java.util.ArrayList;
 public class Problems
 {
   /**
-   * Constructor for objects of class Problems
-   */
-  public Problems()
-  {
-    // initialise instance variables
-  }
-
-  /**
    * If we list all the natural numbers below 10 that are multiples of 3 or 5,
    * we get 3, 5, 6 and 9. The sum of these multiples is 23.
    *
@@ -23,7 +15,7 @@ public class Problems
    *
    * Answer: 233168
    */
-  public int problemOne()
+  public static int problemOne()
   {
     int val = 3;
     int val2 = 5;
@@ -62,7 +54,7 @@ public class Problems
    *
    * Answer: 4613732
    */
-  public int problemTwo()
+  public static int problemTwo()
   {
     int limit = 4000000;
     int val1 = 1;
@@ -78,5 +70,15 @@ public class Problems
       val1 = temp;
     }
     return sum;
+  }
+
+  /**
+   * Main method to call the problems and print out solutions.
+   * @param  args[] The arguments to be passed (currently useless)
+   * @return void
+   */
+  public static void main(String args[]) {
+    System.out.println("Problem 1: " + Problems.problemOne());
+    System.out.println("Problem 2: " + Problems.problemTwo());
   }
 }
